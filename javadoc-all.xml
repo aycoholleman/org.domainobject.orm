@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project default="javadoc">
+    <target name="javadoc">
+        <javadoc access="protected" author="true" classpath="target/test-classes:/home/ayco/.m2/repository/junit/junit/4.10/junit-4.10.jar:/home/ayco/.m2/repository/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar:/home/ayco/programs/eclipse-jee-luna/plugins/org.junit_4.11.0.v201303080030/junit.jar:/home/ayco/.m2/repository/org/slf4j/slf4j-api/1.6.6/slf4j-api-1.6.6.jar:/home/ayco/git/org.domainobject.util/target/test-classes:/home/ayco/git/org.domainobject.util/target/classes:/home/ayco/programs/eclipse-jee-luna/plugins/org.hamcrest.core_1.3.0.v201303031735.jar:/home/ayco/.m2/repository/org/slf4j/slf4j-simple/1.6.6/slf4j-simple-1.6.6.jar" destdir="doc/javadoc" doctitle="DomainObject Simple ORM" nodeprecated="false" nodeprecatedlist="false" noindex="false" nonavbar="false" notree="false" packagenames="org.domainobject.orm.map" source="1.8" sourcepath="src/test/resources:src/main/java:src/test/java:src/main/resources" splitindex="true" use="true" version="true">
+            <link href="https://docs.oracle.com/javase/8/docs/api/"/>
+        </javadoc>
+    </target>
+</project>

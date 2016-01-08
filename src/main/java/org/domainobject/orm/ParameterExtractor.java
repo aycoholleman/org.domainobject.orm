@@ -9,9 +9,9 @@ import org.domainobject.orm.exception.SQLGenerationException;
 
 /**
  * Utility class that replaces named parameters in a SQL query with positional
- * parameters and, in the process, produces a list of all parameter names and
- * their position(s) within the query. Note that a named parameter may occur
- * multiple times in a SQL query, for example:
+ * parameters. In the process, produces a list of all parameter names and their
+ * position(s) within the query. Note that a named parameter may occur multiple
+ * times in a SQL query. For example:
  * {@code SELECT * FROM BOOKS WHERE AUTHOR = :name OR TITLE = :name}.
  */
 class ParameterExtractor {
